@@ -2,12 +2,13 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-app.use(express.static('public'));
+const publicPath = path.resolve(dirname, './public')
+app.use(express.static('publicPath'));
 
-app.listen(3000, () => {
-    console.log("Mercadoliebre corrindo en el puerto 3000");
-});
+app.set('puerto', process.env.PORT|| 3000);
 
+app.listen(app.get('puerto'), () =>console.log('Servidor Corrindo'))
+  
 app.get('/', function(req,res){
     res.sendFile(path.resolve(__dirname, './views/index.html'))
 })

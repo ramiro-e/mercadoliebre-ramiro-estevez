@@ -4,11 +4,22 @@
   "description": "Mercadoliebre",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramiro-e/mercadoliebre-ramiro-estevez.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramiro-e/mercadoliebre-ramiro-estevez/issues"
+  },
+  "homepage": "https://github.com/ramiro-e/mercadoliebre-ramiro-estevez#readme"
 }
