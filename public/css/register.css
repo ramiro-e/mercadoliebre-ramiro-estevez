@@ -1,3 +1,5 @@
+/*/////////////////////////////////   MAIN  /////////////////////////////////*/
+
 main form{
     width: 350px;
     padding: 12px 20px;
@@ -20,11 +22,6 @@ body main{
     margin: 0 auto;
 }
 
-footer{
-    width: 100%8;
-    position: absolute;
-    bottom: 0;
-}
 main form div{
     margin: 10px 0;
 }
@@ -147,6 +144,16 @@ main img{
     direction: row;
     justify-content: space-between;
 }
+
+/*/////////////////////////////////   FOOTER  /////////////////////////////////*/
+
+footer{
+    width: 100%8;
+    position: absolute;
+    bottom: 0;
+}
+
+/*/////////////////////////////////   MEDIA-QUERIES   /////////////////////////////////*/
 
 @media screen and (min-width: 769px){
     main form{
