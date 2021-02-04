@@ -1,0 +1,14 @@
+{
+  "name": "mercadoliebre",
+  "version": "1.0.0",
+  "description": "Mercadoliebre",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

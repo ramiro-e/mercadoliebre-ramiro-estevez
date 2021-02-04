@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>MercadoLiebre</title>
+        <link href='/css/normalize.css' rel='stylesheet'>
+        <link href='/css/styles.css' rel='stylesheet'>
+        <link href='/css/register.css' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/167d28da05.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header id='navbar'>
+            <div id='top-header'>
+                <div id='logo-y-busqueda'>
+                    <figure><img src="\images\logo-mercado-liebre.svg"></figure>
+                    <div><input placeholder="Buscar productos, marcas..."><button><i class="fas fa-search"></i></button></div>
+                </div>
+                <div id="texto-centrado-header"><p><i class="fas fa-hand-holding-usd"></i>  Compra en cuotas y sin tarjeta de credito</p></div>
+            </div>
+            <nav>
+                <nav><ul>
+                    <li><a href='#'>Ofertas</a></li>
+                    <li><a href='#'>Tiendas Oficiales</a></li>
+                    <li><a href='#'>Vender</a></li>
+                    <li><a href='#'>Ayuda</a></li>
+                </ul></nav>
+                <nav><ul>
+                    <li><a href="registro">Crea tu cuenta  <i class="far fa-id-card"></i></a></li>
+                    <li><a href="login">Ingresa  <i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a href='#'>Mis Compras  <i class="fas fa-shopping-basket"></i></a></li>
+                </ul></nav>
+            </nav>
+            <div id='burger-menu'​​>
+                <i class='fa fa-bars burger'></i>
+            </div>
+        </header>
+        <main class='formulario-inline'>
+            <img id='fondo' src="https://http2.mlstatic.com/resources/frontend/statics/shipping-landings/1dfe72bcba70976b76563bc2552fdbcf.jpg">
+            <form action="/registro" method="POST">
+                <section>
+                    <div id='form-text'><input type="text" name="nya" id="nya" placeholder="Nombre y apellido"></div>
+                    <div id='form-text'><input type="text" name="username" id="username" placeholder="Nombre de usuari@"></div>
+                    <div id='form-label'><label for="nacimiento">Fecha de nacimiento</label></div>
+                    <div id='form-date'><input type="date" name="nacimiento"></div>
+                    <div id='form-text'><input type="text" name="domicilio" id="domicilio" placeholder="Domicilio"></div>
+                </section>
+                <section>
+                    <div id='form-label'><label for="CoV">Perfil de usuario</label></div>
+                    <div id='radio-container'>
+                        <div id='form-radio'><input type="radio" name="CoV" value="Comprador" checked><span>  Comprador</span></div>
+                        <div id='form-radio'><input type="radio" name="CoV" value="Vendedor"><span>  Vendedor</span></div>
+                    </div>
+                    <div id='form-label'><label for="interes">Preferencias</label></div>                
+                    <div>
+                        <div id='form-checkbox'><input type="checkbox" name="hobbies" value="Electro"><span>Electro</span></div>
+                        <div id='form-checkbox'><input type="checkbox" name="hobbies" value="Moda"><span>Moda</span></div>
+                        <div id='form-checkbox'><input type="checkbox" name="hobbies" value="Hogar"><span>Hogar</span></div>
+                        <div id='form-checkbox'><input type="checkbox" name="hobbies" value="Juguetería"><span>Juguetería</span></div>
+                        <div id='form-checkbox'><input type="checkbox" name="hobbies" value="Vida sana"><span>Vida sana</span></div>
+                    </div>
+                </section>
+                <section>
+                    <div id='form-label'><label for="profile-pic">Foto de Perfil</label></div>
+                    <div id='form-file'><input type="file" name="profile-pic"></div>
+                    <div id='form-password'><input type="password" name="pass" id="pass" placeholder="Contraseña"></div>
+                    <div id='form-password'><input type="password" name="passcon" id="passcon" placeholder="Reingresar contraseña"></div>              
+                    <section id='buttons'>
+                        <button id='form-button-resetear' type="reset">Resetear</button>
+                        <button id='form-button-confirmar' type="submit">Confirmar</button>
+                    </section>
+                </section>
+            </form>
+        </main>
+        <footer>
+            <small id='Copyright'>Copyright © 1999-2020 MercadoLiebre S.R.L.</small>
+        </footer> 
+    </body>
+</html>
+
+
+
+

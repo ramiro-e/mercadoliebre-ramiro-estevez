@@ -1,0 +1,168 @@
+main form{
+    width: 350px;
+    padding: 12px 20px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(160, 160, 160, 0.651);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 20px auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+}
+
+body main{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+footer{
+    width: 100%8;
+    position: absolute;
+    bottom: 0;
+}
+main form div{
+    margin: 10px 0;
+}
+
+main img{
+    position: absolute;
+    height: 100%;
+    width: auto;
+}
+
+
+#fondo{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    border: 0;
+}
+
+#form-text{
+    background-color: white;
+    border-color: #666;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#form-text input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+#form-label{
+    font-size: 0.9rem;
+}
+
+#form-date{
+    background-color: white;
+    border-color: #666;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#form-date input{
+    border: none;
+    outline: none;
+}
+
+#form-radio{
+    margin-right: 15px;
+}
+
+#radio-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#radio-container span{
+    font-size: 0.9rem;
+}
+
+#form-checkbox{
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+#form-checkbox input{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#form-file{
+    color: rgba(0, 0, 0, 0);
+}
+
+#form-password{
+    background-color: white;
+    border-color: #666;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#form-password input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+#form-button-confirmar{
+    background-color: #1259c3;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#form-button-confirmar:hover{
+    background-color: #08295a;
+}
+
+#form-button-resetear{
+    background-color: #666;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+#form-button-resetear:hover{
+    background-color: rgb(48, 48, 48);
+}
+
+#form-button button{
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+#buttons{
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 769px){
+    main form{
+        width: 700px;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    main form section{
+        width: 200px;
+        
+    }
+    #buttons{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 15px;
+    }
+}
